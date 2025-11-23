@@ -30,7 +30,7 @@ public class LinkedList {
         }
     }
     public int lengthOfList() {
-        if (head == null) return 0;
+        
         else if (tail == null) {
             return 1;
         } else {
