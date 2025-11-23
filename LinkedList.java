@@ -31,7 +31,7 @@ public class LinkedList {
     }
     public int lengthOfList() {
         
-        else if (tail == null) {
+        if (tail == null) {
             return 1;
         } else {
             return 1 + tail.lengthOfList();
